@@ -176,3 +176,12 @@ The output CSV preserves all original columns (e.g. `Value`, `Count`, `OID_`, `O
 | **He** | `TSUG` | `CAN` | *Tsuga canadensis* | Eastern Hemlock |
 | **OC** | `GENC` | `SPP` | Coniferous | Other Conifer |
 | **OH** | `GENH` | `SPP` | Deciduous | Other Hardwood |
+
+---
+
+## 7. License & Notice
+
+Copyright © His Majesty the King in right of Ontario, as represented by the Minister of Natural Resources, 2026.  
+© King's Printer for Ontario, 2026.
+
+This project is licensed under the **Apache License, Version 2.0**. See [LICENSE](LICENSE) and [NOTICE](NOTICE) for full terms.
