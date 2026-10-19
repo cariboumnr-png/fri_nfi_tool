@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fri_nfi_tool"
+version = "1.0.0"
+description = "Ontario FRI to Canada NFI forest species composition converter and raster VAT processor."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Forest Resource Inventory Harmonization Tool"}
+]
+keywords = ["forestry", "NFI", "FRI", "GIS", "raster", "species-composition"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+
+[project.optional-dependencies]
+raster = ["rasterio>=1.3.0"]
+
+[project.scripts]
+fri-nfi-converter = "fri_nfi_tool.converter:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["fri_nfi_tool*"]

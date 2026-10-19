@@ -1,0 +1,5 @@
+# Core conversion works with standard library Python (3.8+).
+# Optional: install rasterio for advanced GeoTIFF reading and writing.
+# If rasterio is not installed, the tool gracefully falls back to binary file copying.
+
+rasterio>=1.3.0
